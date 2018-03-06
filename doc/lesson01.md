@@ -99,7 +99,8 @@
 #### Apply 1_6_forward_to_redirect.patch
 
 - <a href="http://tomcat.apache.org/">Tomcat Home Page</a>
-- <a href="http://java-course.ru/student/book1/servlet/">Сервлеты.</a>
+- <a href="http://java-course.ru/student/book1/servlet/">Сервлеты</a>
+- <a href="https://devcolibri.com/как-создать-servlet-полное-руководство/">Руководство: как создать servlet</a>
 - Томкат менеджер: [http://localhost:8080/manager](http://localhost:8080/manager)
   - в `TOMCAT_HOME\conf\tomcat-users.xml` нужно добавить 
 ```
