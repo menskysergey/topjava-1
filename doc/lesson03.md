@@ -83,6 +83,11 @@
 
 >  Проверьте, что у user в Privileges есть возможность авторизации (особенно для pgAdmin4)
 
+или в UNIX командной строке:
+```
+- psql -c 'create database topjava' -U postgres
+- psql -c 'create user "user"; grant all privileges on database topjava to "user"' -U postgres
+```
 -  <a href="http://alexander.holbreich.org/2013/03/nosql-or-rdbms/">NoSQL or RDBMS.</a> <a href="http://habrahabr.ru/post/77909/">Обзор NoSQL систем</a>. <a href="http://blog.nahurst.com/visual-guide-to-nosql-systems">CAP</a>
 -  <a href="http://db-engines.com/en/ranking">DB-Engines Ranking</a>
 -  <a href="http://ru.wikipedia.org/wiki/Java_Database_Connectivity">JDBC</a>
