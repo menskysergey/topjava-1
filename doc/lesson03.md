@@ -126,7 +126,7 @@
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 9. <a href="https://drive.google.com/open?id=1SPMkWMYPvpk9i0TA7ioa-9Sn1EGBtClD">Тестирование UserService через AssertJ.</a>
 #### Apply 3_11_test_UserService.patch
-> - В конструктор `User` внес `registered` и длаю копию `roles`, чтобы роли нельзя было изменить после инициализации.
+> - В конструктор `User` внес `registered` и делаю копию `roles`, чтобы роли нельзя было изменить после инициализации.
 
 - [Spring Testing Annotations](https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/htmlsingle/#integration-testing-annotations-spring)
 - [The JPA hashCode() / equals() dilemma](https://stackoverflow.com/questions/5031614/the-jpa-hashcode-equals-dilemma)
